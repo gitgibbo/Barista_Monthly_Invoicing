@@ -2,7 +2,11 @@ import pandas as pd
 import numpy as np
 
 def convert_to_datetime(data, column_name, new_column_name):
-    data[new_column_name] = pd.to_datetime(data[column_name])
+    try:
+        data[new_column_name] = pd.to_datetime(data[column_name])
+    except:
+        data[new_column_name] = pd.to_datetime(data[column_name], dayfirst=True)
+        
     data['YearMonth'] = data[new_column_name].dt.to_period('M')
 
 def calculate_null_vends(data, conditions, column_name, new_column_name):
