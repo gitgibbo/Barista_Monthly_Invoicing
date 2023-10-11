@@ -1,1 +1,1 @@
-python main_updated.py
+python main.py
