@@ -2,7 +2,7 @@
 # This script automates the invoicing process for coffee machine vends.
 # It imports utility functions for automation, UI rendering, and data saving.
 
-from utils.automate_new import automator
+from utils.automate import automator
 from utils.cmds import clear_terminal
 from utils.ui import banner
 from utils.save import save_dataframe

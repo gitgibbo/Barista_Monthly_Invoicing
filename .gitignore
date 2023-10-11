@@ -1,7 +1,6 @@
 .DS_Store
 /data/input/*
 /data/output/*
-/main.py
 /venv
 __pycache__/
 utils/__pycache__/data_processing.cpython-311.pyc
