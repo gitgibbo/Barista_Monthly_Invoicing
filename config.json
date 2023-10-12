@@ -1,9 +1,6 @@
 {
     "wastage_per_month": 30,
-    "cpd_bins" : [19,24,29,39,49,59,69],
-    "hire_charges": [1.26, 0.98, 0.90, 0.86, 0.75, 0.62, 0.60, 0.58],
     "minimum_hire_charge": 0,
     "input_directory" : "data/input",
     "output_directory": "data/output"
-    
 }
