@@ -6,3 +6,4 @@ __pycache__/
 utils/__pycache__/data_processing.cpython-311.pyc
 !data/input/.gitkeep
 !data/output/.gitkeep
+app.log

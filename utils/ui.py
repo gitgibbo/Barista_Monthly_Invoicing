@@ -7,14 +7,17 @@ def banner():
     print(Style.BRIGHT + '---- Barista Invoicing Tool v2 ----' + Style.RESET_ALL)
     print(Fore.GREEN + '-----------------------------------' + Style.RESET_ALL)
     print('''
-    This is a CLI tool designed to facilitate the barista station invoice process.
-    it works by taking in the two primary sources of data, the dispensings report from the schaerer portal,
-    and the Manual consumption report for the barista pros.
-          
-    QUICK START INSTRUCTIONS:
-          1. Make sure you have the latest pret and L'or dashboards downloaded and in the data/input folder.
-          2. Put any data exports from the schaerer portal into the data/input folder
-          3. follow the prompts below!
-          
-    If you have any problems using this tool, please notify Matt Gibbons.''')
+    Welcome to the Barista Invoicing Tool v2. This is a Command Line Interface (CLI) tool designed to streamline
+    the invoice process at the barista station.
+    
+    The tool works by integrating data from two primary sources:
+    1. The dispensings report from the Schaerer portal.
+    2. The Manual consumption report for the Barista Pros.
+    
+    QUICK START GUIDE:
+    1. Ensure you have the latest Pret and L'or dashboards downloaded and placed in the 'data/input' folder.
+    2. Export any data from the Schaerer portal and place it into the 'data/input' folder.
+    3. Follow the prompts provided by the tool.
+    
+    If you encounter any issues while using this tool, please contact Matt Gibbons.''')
     print('\n')
