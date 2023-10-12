@@ -74,7 +74,7 @@ InvoiceTool.bat
 **For Unix/Linux:**
 
 ```bash
-python main_updated.py
+python main.py
 ```
 
 Upon execution, the `automator` function orchestrates the entire invoicing process, from data loading to finalization.
