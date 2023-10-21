@@ -1,9 +1,12 @@
 .DS_Store
 /data/input/*
 /data/output/*
-/venv
-__pycache__/
+venv
+__pycache__
 utils/__pycache__/data_processing.cpython-311.pyc
 !data/input/.gitkeep
 !data/output/.gitkeep
 app.log
+build
+dist
+main.spec
