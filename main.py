@@ -3,13 +3,22 @@ from utils.automate import automator
 from utils.cmds import clear_terminal
 from utils.ui import banner
 from utils.save import save_dataframe
-import pandas as pd
+#import pandas as pd
 from utils.config import load_configuration
+import sys, os
 import math
 import logging
 
 # Set up logging
 logging.basicConfig(filename='app.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
+
+# Get Path
+if getattr(sys, 'frozen', False):
+    # we are running in a bundle
+    current_directory = os.path.dirname(sys.executable)
+else:
+    # we are running in a normal Python environment
+    current_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Function to validate user input
 def get_restart_input():
@@ -26,7 +35,7 @@ config = load_configuration()
 while True:
     # Clear the terminal for a clean view
     clear_terminal()
-    
+    print(current_directory)
     # Display a banner or header for the tool
     banner()
 
