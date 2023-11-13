@@ -22,7 +22,7 @@ def automator(directory_path):
             file_path = os.path.join(directory_path, filename)
 
             # Skip '.gitkeep' files
-            if file_path.endswith('.gitkeep'):
+            if file_path.endswith('.gitkeep') or file_path.endswith('.DS_Store'):
                 print(f'\nSkipping {filename}\n')
                 continue 
 
